@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: 'API Quotes',
+    description: 'REST API for Quote Management with Authentication',
+    imagePreview: '/projects/quote.jpg',
+    srcCode: 'https://github.com/Esneyder110/quotesAPI',
+    srcLive: '',
+  },
+  {
     title: 'Stop letter generator',
     description: 'A random character generator',
     imagePreview: '/projects/stop.jpg',
