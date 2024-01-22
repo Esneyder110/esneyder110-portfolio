@@ -40,6 +40,7 @@ export default function Project({
         <p>{description}</p>
         <div className="flex gap-3">
           <Link
+            target="_blank"
             className="
             group 
             transition-transform
@@ -73,6 +74,7 @@ export default function Project({
           </Link>
           {
             srcLive && <Link
+              target="_blank"
               className="
               group 
               transition-transform

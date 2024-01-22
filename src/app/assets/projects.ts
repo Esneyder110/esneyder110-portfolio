@@ -4,7 +4,7 @@ export const projects = [
     description: 'REST API for Quote Management with Authentication',
     imagePreview: '/projects/quote.jpg',
     srcCode: 'https://github.com/Esneyder110/quotesAPI',
-    srcLive: '',
+    srcLive: 'https://quotesapi-dev-zexr.1.us-1.fl0.io/api/v1/docs/#/',
   },
   {
     title: 'Stop letter generator',
