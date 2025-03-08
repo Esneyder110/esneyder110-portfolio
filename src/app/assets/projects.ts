@@ -18,13 +18,13 @@ export const projects = [
     description: 'A random character generator',
     imagePreview: '/projects/stop.jpg',
     srcCode:'https://github.com/Esneyder110/3-stop-letras',
-    srcLive: '',
+    srcLive: 'esneyder110.github.io/3-stop-letras/',
   },
   {
     title: 'Advice generator',
     description: 'A random advice generator by using a API',
     imagePreview: '/projects/advice.jpg',
     srcCode: 'https://github.com/Esneyder110/12-advice-generator-app-main-API',
-    srcLive: '',
+    srcLive: 'https://esneyder110.github.io/loopstudios-landing-page/',
   },
 ]
