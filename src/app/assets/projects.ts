@@ -18,7 +18,7 @@ export const projects = [
     description: 'A random character generator',
     imagePreview: '/projects/stop.jpg',
     srcCode:'https://github.com/Esneyder110/3-stop-letras',
-    srcLive: 'esneyder110.github.io/3-stop-letras/',
+    srcLive: 'https://esneyder110.github.io/3-stop-letras/',
   },
   {
     title: 'Advice generator',
