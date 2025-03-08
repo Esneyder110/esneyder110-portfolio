@@ -1,10 +1,10 @@
 export const projects = [
   {
-    title: 'API Quotes',
+    title: 'Quotes API',
     description: 'REST API for Quote Management with Authentication',
     imagePreview: '/projects/quote.jpg',
     srcCode: 'https://github.com/Esneyder110/quotesAPI',
-    srcLive: 'https://quotesapi-dev-zexr.1.us-1.fl0.io/api/v1/docs/#/',
+    srcLive: 'https://quotes-api-nine-rho.vercel.app/api/v1/docs/',
   },
   {
     title: 'Loopstudios Landing Page',
