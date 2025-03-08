@@ -23,13 +23,16 @@ export default function Project({
   return (
     <div className="flex flex-col sm:flex-row gap-6">
       <Image
-        className="
+        className={`
         w-full
-        sm:w-auto
+        sm:w-64
         rounded-lg 
         transition-transform
         hover:scale-105
-        "
+        aspect-video
+        object-cover
+        ${title === 'Quotes API' ? 'object-left-top' : ''}
+        `}
         src={imagePreview}
         width={imgSize}
         height={imgSize}
