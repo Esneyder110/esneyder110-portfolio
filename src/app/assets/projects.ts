@@ -25,6 +25,6 @@ export const projects = [
     description: 'A random advice generator by using a API',
     imagePreview: '/projects/advice.jpg',
     srcCode: 'https://github.com/Esneyder110/12-advice-generator-app-main-API',
-    srcLive: 'https://esneyder110.github.io/loopstudios-landing-page/',
+    srcLive: 'https://esneyder110.github.io/12-advice-generator-app-main-API/',
   },
 ]
