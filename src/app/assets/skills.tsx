@@ -1,10 +1,11 @@
+import type { JSX } from "react";
 import {
   SiTypescript,
   SiJavascript,
   SiNodedotjs,
   SiNpm,
   SiHtml5,
-  SiCss3,
+  SiCss,
   SiDocker,
   SiNestjs,
   SiGraphql,
@@ -52,7 +53,7 @@ export const SkillIcon: SkillIconInterface = {
   'NodeJs': <SiNodedotjs />,
   'npm': <SiNpm />,
   'HTML': <SiHtml5 />,
-  'CSS': <SiCss3 />,
+  'CSS': <SiCss />,
   'Docker': <SiDocker />,
   'Nestjs': <SiNestjs />,
   'REST': <SiPostman />,
