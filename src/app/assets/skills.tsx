@@ -1,5 +1,6 @@
 import type { JSX } from "react";
 import {
+  SiGo,
   SiTypescript,
   SiJavascript,
   SiNodedotjs,
@@ -7,6 +8,7 @@ import {
   SiHtml5,
   SiCss,
   SiDocker,
+  SiKubernetes,
   SiNestjs,
   SiGraphql,
   SiPostman,
@@ -26,6 +28,7 @@ interface SkillIconInterface {
 }
 
 export const EsneyderSkill = {
+  Go: 'Go',
   TypeScript: 'TypeScript',
   JavaScript: 'JavaScript',
   NodeJs: 'NodeJs',
@@ -33,6 +36,7 @@ export const EsneyderSkill = {
   HTML: 'HTML',
   CSS: 'CSS',
   Docker: 'Docker',
+  Kubernetes: 'Kubernetes',
   Nestjs: 'Nestjs',
   REST: 'REST',
   GraphQL: 'GraphQL',
@@ -48,6 +52,7 @@ export const EsneyderSkill = {
 }
 
 export const SkillIcon: SkillIconInterface = {
+  'Go': <SiGo />,
   'TypeScript': <SiTypescript />,
   'JavaScript': <SiJavascript />,
   'NodeJs': <SiNodedotjs />,
@@ -55,6 +60,7 @@ export const SkillIcon: SkillIconInterface = {
   'HTML': <SiHtml5 />,
   'CSS': <SiCss />,
   'Docker': <SiDocker />,
+  'Kubernetes': <SiKubernetes />,
   'Nestjs': <SiNestjs />,
   'REST': <SiPostman />,
   'GraphQL': <SiGraphql />,

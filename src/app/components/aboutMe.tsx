@@ -15,7 +15,7 @@ export default function AboutMe() {
       />
       <div className="flex flex-col text-center sm:text-left gap-2">
         <h1 className="text-4xl font-bold">Esneyder Monsalve</h1>
-        <p id="intro" className="dark:text-secondary">I&apos;m a passionate backend developer.</p>
+        <p id="intro" className="dark:text-secondary">Looking for a backend developer who ships? Let&apos;s talk.</p>
         <Socials iconsSize={iconsSize} />
       </div>
     </section>

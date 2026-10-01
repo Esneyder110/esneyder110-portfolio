@@ -10,12 +10,26 @@ export interface JobInterface {
 
 export const jobs: JobInterface[] = [
   {
+    role: 'Backend Developer',
+    company: 'LPSysco',
+    yearStart: '2025',
+    monthStart: 'Oct',
+    yearEnd: '',
+    monthEnd: '',
+    descriptions: [
+      'Migrated a critical legacy-to-modern infrastructure, transitioning core services from Ruby to Go (Golang) to enhance system concurrency and performance.',
+      'Architected high-performance backend modules for a major internet backbone infrastructure project, focusing on low-latency and high-throughput data processing.',
+      'Implemented clean code principles and Go design patterns to ensure the new codebase is maintainable, scalable, and highly efficient.',
+      'Collaborated with cross-functional teams to ensure zero-downtime during the phased migration of critical service components.'
+    ]
+  },
+  {
     role: 'Full Stack Developer',
     company: 'Equilibrio Agency',
     yearStart: '2024',
     monthStart: 'Feb',
-    yearEnd: '',
-    monthEnd: '',
+    yearEnd: '2025',
+    monthEnd: 'Oct',
     descriptions: [
       'Improved the application performance by optimizing the back-end code.',
       'Developed a full-stack web application that handled concurrent users with minimal downtime.',
