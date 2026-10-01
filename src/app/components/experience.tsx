@@ -13,7 +13,7 @@ export default function Experience () {
         jobs.map(job => {
           return (
             <Job
-              key={job.role}
+              key={`${job.company}-${job.role}`}
               role={job.role}
               company={job.company}
               yearStart={job.yearStart}
