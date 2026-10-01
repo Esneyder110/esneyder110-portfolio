@@ -3,4 +3,4 @@ const nextConfig = {
   agentRules: false,
 }
 
-module.exports = nextConfig
+export default nextConfig
